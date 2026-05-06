@@ -1,0 +1,153 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?e8d86ceb698410e1d8b5e9b5bbfe658a") format("truetype"),
+url("./flaticon.woff?e8d86ceb698410e1d8b5e9b5bbfe658a") format("woff"),
+url("./flaticon.woff2?e8d86ceb698410e1d8b5e9b5bbfe658a") format("woff2"),
+url("./flaticon.eot?e8d86ceb698410e1d8b5e9b5bbfe658a#iefix") format("embedded-opentype"),
+url("./flaticon.svg?e8d86ceb698410e1d8b5e9b5bbfe658a#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "award-1": "\f101",
+    "award": "\f102",
+    "binoculars": "\f103",
+    "boot": "\f104",
+    "buy-button": "\f105",
+    "credit-card": "\f106",
+    "customer-service": "\f107",
+    "diamond": "\f108",
+    "email": "\f109",
+    "guarantee": "\f10a",
+    "headphones": "\f10b",
+    "hiking-1": "\f10c",
+    "hiking-2": "\f10d",
+    "hiking": "\f10e",
+    "message": "\f10f",
+    "money-back": "\f110",
+    "pay": "\f111",
+    "rating-1": "\f112",
+    "rating": "\f113",
+    "right-quote": "\f114",
+    "search-1": "\f115",
+    "search": "\f116",
+    "security": "\f117",
+    "shopping-bag": "\f118",
+    "speed": "\f119",
+    "support": "\f11a",
+    "target": "\f11b",
+    "team": "\f11c",
+    "telephone-1": "\f11d",
+    "telephone": "\f11e",
+    "trekking-pole": "\f11f",
+    "trophy": "\f120",
+);
+
+.flaticon-award-1:before {
+    content: map-get($flaticon-map, "award-1");
+}
+.flaticon-award:before {
+    content: map-get($flaticon-map, "award");
+}
+.flaticon-binoculars:before {
+    content: map-get($flaticon-map, "binoculars");
+}
+.flaticon-boot:before {
+    content: map-get($flaticon-map, "boot");
+}
+.flaticon-buy-button:before {
+    content: map-get($flaticon-map, "buy-button");
+}
+.flaticon-credit-card:before {
+    content: map-get($flaticon-map, "credit-card");
+}
+.flaticon-customer-service:before {
+    content: map-get($flaticon-map, "customer-service");
+}
+.flaticon-diamond:before {
+    content: map-get($flaticon-map, "diamond");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-guarantee:before {
+    content: map-get($flaticon-map, "guarantee");
+}
+.flaticon-headphones:before {
+    content: map-get($flaticon-map, "headphones");
+}
+.flaticon-hiking-1:before {
+    content: map-get($flaticon-map, "hiking-1");
+}
+.flaticon-hiking-2:before {
+    content: map-get($flaticon-map, "hiking-2");
+}
+.flaticon-hiking:before {
+    content: map-get($flaticon-map, "hiking");
+}
+.flaticon-message:before {
+    content: map-get($flaticon-map, "message");
+}
+.flaticon-money-back:before {
+    content: map-get($flaticon-map, "money-back");
+}
+.flaticon-pay:before {
+    content: map-get($flaticon-map, "pay");
+}
+.flaticon-rating-1:before {
+    content: map-get($flaticon-map, "rating-1");
+}
+.flaticon-rating:before {
+    content: map-get($flaticon-map, "rating");
+}
+.flaticon-right-quote:before {
+    content: map-get($flaticon-map, "right-quote");
+}
+.flaticon-search-1:before {
+    content: map-get($flaticon-map, "search-1");
+}
+.flaticon-search:before {
+    content: map-get($flaticon-map, "search");
+}
+.flaticon-security:before {
+    content: map-get($flaticon-map, "security");
+}
+.flaticon-shopping-bag:before {
+    content: map-get($flaticon-map, "shopping-bag");
+}
+.flaticon-speed:before {
+    content: map-get($flaticon-map, "speed");
+}
+.flaticon-support:before {
+    content: map-get($flaticon-map, "support");
+}
+.flaticon-target:before {
+    content: map-get($flaticon-map, "target");
+}
+.flaticon-team:before {
+    content: map-get($flaticon-map, "team");
+}
+.flaticon-telephone-1:before {
+    content: map-get($flaticon-map, "telephone-1");
+}
+.flaticon-telephone:before {
+    content: map-get($flaticon-map, "telephone");
+}
+.flaticon-trekking-pole:before {
+    content: map-get($flaticon-map, "trekking-pole");
+}
+.flaticon-trophy:before {
+    content: map-get($flaticon-map, "trophy");
+}
